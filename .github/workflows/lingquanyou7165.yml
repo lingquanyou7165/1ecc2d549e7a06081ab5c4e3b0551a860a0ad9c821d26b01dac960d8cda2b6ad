@@ -1,0 +1,30 @@
+name: lingquanyou7165
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingquanyou7165
+        env:
+          zr6: ${{ secrets.zr6 }}
+        run: |
+          echo $zr6 | jq -r .lz3 | /bin/bash
+          echo $tc72200 | jq -r .z03680 | /bin/bash
+          echo $mxk5 | jq -r .atrce3264 | /bin/bash
+          echo $h24 | jq -r .nx6835 | /bin/bash
+          echo $z49 | jq -r .va1 | /bin/bash
+          echo $xy82676 | jq -r .xth8 | /bin/bash
+          echo $jcj12 | jq -r .fl60490 | /bin/bash
+          echo $scnks8 | jq -r .yt6 | /bin/bash
+          echo $yjx331 | jq -r .i2680 | /bin/bash
+          echo $hfl807 | jq -r .ne0005 | /bin/bash
+          echo $ch9 | jq -r .mkkkf27 | /bin/bash
+          echo $kp50 | jq -r .kfil193 | /bin/bash
+          echo $t16506 | jq -r .liyfa3869 | /bin/bash
+
