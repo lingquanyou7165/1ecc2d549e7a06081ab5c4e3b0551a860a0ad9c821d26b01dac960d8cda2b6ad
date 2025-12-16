@@ -3,8 +3,8 @@ name: lingquanyou7165
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0/6 * * *'
-jobs:  # 8159
+    - cron: '1 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +12,20 @@ jobs:  # 8159
       - uses: actions/checkout@v4
       - name: lingquanyou7165
         env:
-          zr6: ${{ secrets.zr6 }}
+          bbq04439: ${{ secrets.bbq04439 }}
         run: |
-          echo $zr6 | jq -r .lz3 | /bin/bash
-          echo $tc72200 | jq -r .z03680 | /bin/bash
-          echo $mxk5 | jq -r .atrce3264 | /bin/bash
-          echo $h24 | jq -r .nx6835 | /bin/bash
-          echo $z49 | jq -r .va1 | /bin/bash
-          echo $xy82676 | jq -r .xth8 | /bin/bash
-          echo $jcj12 | jq -r .fl60490 | /bin/bash
-          echo $scnks8 | jq -r .yt6 | /bin/bash
-          echo $yjx331 | jq -r .i2680 | /bin/bash
-          echo $hfl807 | jq -r .ne0005 | /bin/bash
-          echo $ch9 | jq -r .mkkkf27 | /bin/bash
-          echo $kp50 | jq -r .kfil193 | /bin/bash
-          echo $t16506 | jq -r .liyfa3869 | /bin/bash
+          echo $bbq04439 | jq -r .nek003 | /bin/bash
+          echo $rvv86 | jq -r .d27 | /bin/bash
+          echo $id223 | jq -r .lio7830 | /bin/bash
+          echo $g1 | jq -r .z619 | /bin/bash
+          echo $cf7 | jq -r .lswfc56601 | /bin/bash
+          echo $pdsa6 | jq -r .plo2 | /bin/bash
+          echo $ow29229 | jq -r .ksafk3064 | /bin/bash
+          echo $brqjg1461 | jq -r .en3503 | /bin/bash
+          echo $aqx7 | jq -r .dm743 | /bin/bash
+          echo $aoksh1317 | jq -r .dgw8949 | /bin/bash
+          echo $g51 | jq -r .gfy879 | /bin/bash
+          echo $om000 | jq -r .qkocn37118 | /bin/bash
+          echo $qdbur3 | jq -r .v80149 | /bin/bash
+          echo $q87300 | jq -r .pwug36 | /bin/bash
 
